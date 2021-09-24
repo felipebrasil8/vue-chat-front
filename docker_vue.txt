@@ -27,3 +27,7 @@ $ sudo chown -R $USER $(pwd)
 ** Adicionar vue-router **
 
 # vue add router
+
+** Adciona bootstrap e bootstrap-vue **
+
+# vue add bootstrap bootstrap-vue
