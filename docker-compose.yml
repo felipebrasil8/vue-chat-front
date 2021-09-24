@@ -1,0 +1,14 @@
+version: '3.3'
+
+services:
+
+  vue-chat:
+    container_name: vue-chat
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - '8082:8080'

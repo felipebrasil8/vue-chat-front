@@ -1,0 +1,24 @@
+** Rodar uma imagem do docker **
+
+$ docker run --rm -it -v $(pwd):/app --workdir "/app" -p 8082:8080 node:lts-alpine /bin/sh
+
+
+** Instalar o vue **
+
+#  npm install @vue/cli@3.11.0 -g
+
+
+** Criar um projeto vue **
+
+# vue create .
+
+** Rodar o servidor **
+/**
+  Nesse passo já conseguimos rodar o servidor
+  e acessa-lo pelo browser com localhost:8082
+ */
+
+# npm run serve
+
+
+
