@@ -23,3 +23,7 @@ $ docker run --rm -it -v $(pwd):/app --workdir "/app" -p 8082:8080 node:lts-alpi
 ** Permissão nos arquivos **
 
 $ sudo chown -R $USER $(pwd)
+
+** Adicionar vue-router **
+
+# vue add router
